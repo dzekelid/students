@@ -23,7 +23,7 @@ apis:
   tags: Student
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/student/master/_listings/google-classroom/v1-courses-courseid-students-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/student/master/_listings/google-classroom/v1-courses-courseid-students-post.md
 x-common:
 - type: x-button
   url: https://developers.google.com/classroom/guides/sharebutton
