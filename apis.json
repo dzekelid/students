@@ -1,10 +1,10 @@
 {
-	"name": "Streadata.io API Gallery - Student",
-	"description": "This is a repository of student APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
-	"image": "http://template.streamdata.gallery/assets/student.png",
+	"name": "Streadata.io API Gallery - Students",
+	"description": "This is a repository of students APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/students.png",
 	"created": "2018-02-24",
 	"modified": "2018-08-28",
-	"url": "http://student.streamdata.gallery/apis.json",
+	"url": "http://students.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -14,11 +14,41 @@
 			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
 			"humanURL": "http://instructure.com",
 			"baseURL": "https://canvas.instructure.com//api/v1",
-			"tags": "Student",
+			"tags": "Students",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/student/master/_listings/instructure/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "University of Washington",
+			"x-api-slug": "university-of-washington",
+			"description": "The UW is a leading research university with three campuses, a world-class academic medical center and extensive continuing education programs. The students, faculty and researchers who come here are driven to turn ideas into actions. They transform ou...",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "http://www.washington.edu/",
+			"baseURL": "https:///",
+			"tags": "Students",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/university-of-washington/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Magnus Health",
+			"x-api-slug": "magnus-health",
+			"description": "Magnus Health is an online software solution for collecting, managing, and securely storing student health information for K-12 schools and colleges.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1894-magnus-health.jpg",
+			"humanURL": "http://magnushealth.com",
+			"baseURL": "https:///",
+			"tags": "Students",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/magnus-health/openapi.md"
 				}
 			]
 		},
@@ -29,11 +59,11 @@
 			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-classroom.png",
 			"humanURL": "https://classroom.google.com/",
 			"baseURL": "://classroom.googleapis.com//",
-			"tags": "Student",
+			"tags": "Students",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/student/master/_listings/google-classroom/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/google-classroom/openapi.md"
 				}
 			]
 		},
@@ -44,28 +74,36 @@
 			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg",
 			"humanURL": "http://www.payrun.io",
 			"baseURL": "https://api.test.payrun.io//",
-			"tags": "Student",
+			"tags": "Students",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/student/master/_listings/payrun/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/payrun/openapi.md"
 				}
 			]
 		}
 	],
-	"tags": "Student",
+	"tags": "Students",
 	"include": [
 		{
 			"name": "Instructure",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/student/master/_listings/instructure/apis.yaml"
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "University of Washington",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/university-of-washington/apis.yaml"
+		},
+		{
+			"name": "Magnus Health",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/magnus-health/apis.yaml"
 		},
 		{
 			"name": "Google Classroom",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/student/master/_listings/google-classroom/apis.yaml"
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/google-classroom/apis.yaml"
 		},
 		{
 			"name": "PayRun",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/student/master/_listings/payrun/apis.yaml"
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/payrun/apis.yaml"
 		}
 	]
 }

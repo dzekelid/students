@@ -14,12 +14,12 @@ produces:
 consumes:
 - application/json
 paths:
-  /Templates/studentloanytdpayinstruction:
+  /Templates/paylinestudentloan:
     get:
-      summary: Gets the student loan YTD pay instruction template
-      description: Return the student loan YTD pay instruction data object template
-      operationId: GetStudentLoanYtdPayInstructionTemplate
-      x-api-path-slug: templatesstudentloanytdpayinstruction-get
+      summary: Gets the pay line student loan template
+      description: Return the pay line student loan data object template
+      operationId: GetPayLineStudentLoanTemplate
+      x-api-path-slug: templatespaylinestudentloan-get
       parameters:
       - in: header
         name: Api-Version
@@ -31,11 +31,10 @@ paths:
         200:
           description: OK
       tags:
+      - Pay
+      - Line
       - Student
       - Loan
-      - YTD
-      - Pay
-      - Instruction
       - Template
   /Templates/studentloanpayinstruction:
     get:
@@ -59,12 +58,12 @@ paths:
       - Pay
       - Instruction
       - Template
-  /Templates/paylinestudentloan:
+  /Templates/studentloanytdpayinstruction:
     get:
-      summary: Gets the pay line student loan template
-      description: Return the pay line student loan data object template
-      operationId: GetPayLineStudentLoanTemplate
-      x-api-path-slug: templatespaylinestudentloan-get
+      summary: Gets the student loan YTD pay instruction template
+      description: Return the student loan YTD pay instruction data object template
+      operationId: GetStudentLoanYtdPayInstructionTemplate
+      x-api-path-slug: templatesstudentloanytdpayinstruction-get
       parameters:
       - in: header
         name: Api-Version
@@ -76,8 +75,9 @@ paths:
         200:
           description: OK
       tags:
-      - Pay
-      - Line
       - Student
       - Loan
+      - YTD
+      - Pay
+      - Instruction
       - Template

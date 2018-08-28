@@ -6,34 +6,12 @@ description: An open, scalable, transparent and HMRC accredited payroll API. Put
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
 x-kinRank: "7"
 x-alexaRank: "0"
-tags: Student
+tags: Students
 created: "2018-08-28"
 modified: "2018-08-28"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/student/master/_listings/payrun/apis.md
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/payrun/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Pay Run.IO - Gets the student loan YTD pay instruction template
-  x-api-slug: templatesstudentloanytdpayinstruction-get
-  description: Return the student loan YTD pay instruction data object template
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
-  humanURL: http://www.payrun.io
-  baseURL: https://api.test.payrun.io//
-  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
-    Data, Relative StreamRank, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/student/master/_listings/payrun/templatesstudentloanytdpayinstruction-get-openapi.md
-- name: Pay Run.IO - Gets the student loan pay instruction template
-  x-api-slug: templatesstudentloanpayinstruction-get
-  description: Return the student loan pay instruction data object template
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
-  humanURL: http://www.payrun.io
-  baseURL: https://api.test.payrun.io//
-  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
-    Data, Relative StreamRank, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/student/master/_listings/payrun/templatesstudentloanpayinstruction-get-openapi.md
 - name: Pay Run.IO - Gets the pay line student loan template
   x-api-slug: templatespaylinestudentloan-get
   description: Return the pay line student loan data object template
@@ -44,7 +22,95 @@ apis:
     Data, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/student/master/_listings/payrun/templatespaylinestudentloan-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/payrun/templatespaylinestudentloan-get-openapi.md
+- name: Pay Run.IO - Gets the student loan pay instruction template
+  x-api-slug: templatesstudentloanpayinstruction-get
+  description: Return the student loan pay instruction data object template
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/payrun/templatesstudentloanpayinstruction-get-openapi.md
+- name: Pay Run.IO - Gets the student loan YTD pay instruction template
+  x-api-slug: templatesstudentloanytdpayinstruction-get
+  description: Return the student loan YTD pay instruction data object template
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/payrun/templatesstudentloanytdpayinstruction-get-openapi.md
+- name: Pay Run.IO - Gets the pay line student loan template
+  x-api-slug: templatespaylinestudentloan-get
+  description: Return the pay line student loan data object template
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/payrun/templatespaylinestudentloan-get-openapi.md
+- name: Pay Run.IO - Gets the student loan pay instruction template
+  x-api-slug: templatesstudentloanpayinstruction-get
+  description: Return the student loan pay instruction data object template
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/payrun/templatesstudentloanpayinstruction-get-openapi.md
+- name: Pay Run.IO - Gets the student loan YTD pay instruction template
+  x-api-slug: templatesstudentloanytdpayinstruction-get
+  description: Return the student loan YTD pay instruction data object template
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/payrun/templatesstudentloanytdpayinstruction-get-openapi.md
+- name: Pay Run.IO - Gets the student loan YTD pay instruction template
+  x-api-slug: templatesstudentloanytdpayinstruction-get
+  description: Return the student loan YTD pay instruction data object template
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/payrun/templatesstudentloanytdpayinstruction-get-openapi.md
+- name: Pay Run.IO - Gets the student loan pay instruction template
+  x-api-slug: templatesstudentloanpayinstruction-get
+  description: Return the student loan pay instruction data object template
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/payrun/templatesstudentloanpayinstruction-get-openapi.md
+- name: Pay Run.IO - Gets the pay line student loan template
+  x-api-slug: templatespaylinestudentloan-get
+  description: Return the pay line student loan data object template
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/students/master/_listings/payrun/templatespaylinestudentloan-get-openapi.md
 x-common:
 - type: x-website
   url: http://www.payrun.io

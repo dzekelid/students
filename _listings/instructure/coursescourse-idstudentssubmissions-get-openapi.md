@@ -1,9 +1,10 @@
+---
 swagger: "2.0"
 x-collection-name: Instructure
-x-complete: 1
+x-complete: 0
 info:
-  title: Instructure Canvas Utility APIs
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+  title: Instructure Canvas Courses API List submissions for multiple assignments
+  description: List submissions for multiple assignments.
   termsOfService: https://www.canvaslms.com/policies/api-policy
   version: v1
 host: canvas.instructure.com
@@ -157,106 +158,17 @@ paths:
       - Id
       - Students
       - Submissions
-  /courses/{course_id}/analytics/student_summaries:
-    get:
-      summary: Get course-level student summary data
-      description: Get course-level student summary data.
-      operationId: get-courselevel-student-summary-data
-      x-api-path-slug: coursescourse-idanalyticsstudent-summaries-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Courses
-      - Course
-      - Id
-      - Analytics
-      - Student
-      - Summaries
-  /courses/{course_id}/analytics/users/student_id/activity:
-    get:
-      summary: Get user-in-a-course-level participation data
-      description: Get user-in-a-course-level participation data.
-      operationId: get-userinacourselevel-participation-data
-      x-api-path-slug: coursescourse-idanalyticsusersstudent-idactivity-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Courses
-      - Course
-      - Id
-      - Analytics
-      - Users
-      - Student
-      - Id
-      - Activity
-  /courses/{course_id}/analytics/users/student_id/assignments:
-    get:
-      summary: Get user-in-a-course-level assignment data
-      description: Get user-in-a-course-level assignment data.
-      operationId: get-userinacourselevel-assignment-data
-      x-api-path-slug: coursescourse-idanalyticsusersstudent-idassignments-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Courses
-      - Course
-      - Id
-      - Analytics
-      - Users
-      - Student
-      - Id
-      - Assignments
-  /courses/{course_id}/analytics/users/student_id/communication:
-    get:
-      summary: Get user-in-a-course-level messaging data
-      description: Get user-in-a-course-level messaging data.
-      operationId: get-userinacourselevel-messaging-data
-      x-api-path-slug: coursescourse-idanalyticsusersstudent-idcommunication-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Courses
-      - Course
-      - Id
-      - Analytics
-      - Users
-      - Student
-      - Id
-      - Communication
-  /sections/{section_id}/students/submissions:
-    get:
-      summary: List submissions for multiple assignments
-      description: List submissions for multiple assignments.
-      operationId: list-submissions-for-multiple-assignments
-      x-api-path-slug: sectionssection-idstudentssubmissions-get
-      parameters:
-      - in: query
-        name: assignment_ids[]
-        description: List of assignments to return submissions for
-      - in: query
-        name: grading_period_id
-        description: The id of the grading period in which submissions are being requestedn(Requires
-          the Multiple Grading Periods account feature turned on)
-      - in: query
-        name: grouped
-        description: If this argument is present, the response will be grouped by
-          student,nrather than a flat array of submissions
-      - in: query
-        name: include[]
-        description: Associations to include with the group
-      - in: query
-        name: student_ids[]
-        description: List of student ids to return submissions for
-      responses:
-        200:
-          description: OK
-      tags:
-      - Sections
-      - Section
-      - Id
-      - Students
-      - Submissions
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

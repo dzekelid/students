@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Instructure
 x-complete: 0
 info:
-  title: Instructure Canvas Audit API Query by student.
-  description: Query by student..
+  title: Instructure Canvas Courses API List students selected for moderation
+  description: List students selected for moderation.
   termsOfService: https://www.canvaslms.com/policies/api-policy
   version: v1
 host: canvas.instructure.com
@@ -39,6 +39,42 @@ paths:
       - Students
       - Student
       - Id
+  /courses/{course_id}/assignments/assignment_id/gradeable_students:
+    get:
+      summary: List gradeable students
+      description: List gradeable students.
+      operationId: list-gradeable-students
+      x-api-path-slug: coursescourse-idassignmentsassignment-idgradeable-students-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignments
+      - Assignment
+      - Id
+      - Gradeable
+      - Students
+  /courses/{course_id}/assignments/assignment_id/moderated_students:
+    get:
+      summary: List students selected for moderation
+      description: List students selected for moderation.
+      operationId: list-students-selected-for-moderation
+      x-api-path-slug: coursescourse-idassignmentsassignment-idmoderated-students-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignments
+      - Assignment
+      - Id
+      - Moderated
+      - Students
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
